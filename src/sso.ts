@@ -1,5 +1,6 @@
 import fetchCookie, { FetchCookieImpl } from "fetch-cookie";
 import { CookieJar } from "tough-cookie";
+import * as console from "node:console";
 
 const CEDER_SSO = "https://oneoncology-uat.enclave.cedarinternal.com/provider/oidc/";
 const LOGIN_URL =
@@ -44,6 +45,7 @@ const getSSORedirectURL = async (fetch: FetchCookieImpl<any, any, any>, csrfToke
 };
 
 const run = async () => {
+  console.log("STARTING");
   const cookieJar = new CookieJar();
 
   const fetchWithCookies = fetchCookie(fetch, cookieJar);
