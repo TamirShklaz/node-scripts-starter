@@ -1,0 +1,23 @@
+POST https://candidhealth-staging.auth0.com/oauth/token
+Accept: */*
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Auth0-Client: eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMTkuMSJ9
+Content-Type: application/json
+Origin: https://app-staging.joincandidhealth.com
+Priority: u=1, i
+Referer: https://app-staging.joincandidhealth.com/
+Sec-CH-UA: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "macOS"
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+
+{
+  "client_id": "mRnT7thfhx32ta5tmymdvUVmMgd4YlEn",
+  "code_verifier": "EF-2YnVL_ZdskNaFZrHEcKN1GAw~bINu0Pk~Fw15sCb",
+  "code": "S4qMdzchnk_5shMoHdyJzMaJA-6h5L1KSVnyRWK5zJp5W",
+  "grant_type": "authorization_code",
+  "redirect_uri": "https://app-staging.joincandidhealth.com"
+}

@@ -1,0 +1,11 @@
+POST https://oneoncology-uat.enclave.cedarinternal.com/provider/oidc/
+--verbose
+Content-Type: application/json
+Cookie: AWSALB=Hkfa0LHJcDu3HtpuRGUQX5/CvXycZAzzitIOQrp9bfAR9P70XUedoids4sHwWXFeqVj3faEEvkqM3+BKa4SEYWimL4Rg1WJKF9nI2juYlLg7Rz2p9NF2TgDPf/mG; AWSALBCORS=Hkfa0LHJcDu3HtpuRGUQX5/CvXycZAzzitIOQrp9bfAR9P70XUedoids4sHwWXFeqVj3faEEvkqM3+BKa4SEYWimL4Rg1WJKF9nI2juYlLg7Rz2p9NF2TgDPf/mG; csrftoken=JWuCgRzeiXSWaaclOohfr87qZOj7XZzT; session_public_id=6123c306707543ae84cedd4b2bb6bf4f
+X-Csrf-Token: JWuCgRzeiXSWaaclOohfr87qZOj7XZzT
+Referer: https://app-staging.joincandidhealth.com
+Origin: https://app-staging.joincandidhealth.com
+
+{
+  "guarantor_id": "2408211001"
+}
